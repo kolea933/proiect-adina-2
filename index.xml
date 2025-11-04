@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ghid_animale>
+    <titlu>Ghid despre animale</titlu>
+    <descriere>Descoperă lumea fascinantă a animalelor!</descriere>
+
+    <meniu>
+        <categorie>Mamifere</categorie>
+        <categorie>Păsări</categorie>
+        <categorie>Reptile</categorie>
+    </meniu>
+
+    <sectiuni>
+        <sectiune id="mamifere">
+            <nume>Mamifere</nume>
+            <animal>
+                <nume_comun>Leul</nume_comun>
+                <imagine src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="Leu"/>
+                <descriere>Leul este considerat regele savanei. Trăiește în grupuri numite haite și este un prădător puternic.</descriere>
+            </animal>
+        </sectiune>
+
+        <sectiune id="pasari">
+            <nume>Păsări</nume>
+            <animal>
+                <nume_comun>Papagalul</nume_comun>
+                <imagine src="Papagal.jpg" alt="Papagal" height="600px" width="600px"/>
+                <descriere>Papagalii sunt cunoscuți pentru penajul lor colorat și abilitatea de a imita sunete, inclusiv vocea umană.</descriere>
+            </animal>
+        </sectiune>
+
+        <sectiune id="reptile">
+            <nume>Reptile</nume>
+            <animal>
+                <nume_comun>Țestoasa</nume_comun>
+                <imagine src="Testoasa.jpg" alt="Țestoasă" height="400px" width="600px"/>
+                <descriere>Țestoasele sunt animale lente, dar longevive. Carapacea lor le protejează de prădători.</descriere>
+            </animal>
+        </sectiune>
+    </sectiuni>
+
+    <footer>
+        <copyright>© 2025 Ghid despre animale - Realizat de Tudorica Nicolae</copyright>
+    </footer>
+</ghid_animale>
