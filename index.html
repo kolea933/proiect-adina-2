@@ -2,6 +2,9 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Tudorica Nicolae">
+    <meta name="description" content="Un ghid educativ despre diferite specii de animale: mamifere, păsări și reptile.">
+    <meta name="keywords" content="animale, ghid, mamifere, păsări, reptile, educație">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghid despre animale</title>
     <link rel="stylesheet" href="style.css">
@@ -9,22 +12,26 @@
 <body>
 
     <header>
-        <h1>Ghid despre animale</h1>
-        <p>Descoperă lumea fascinantă a animalelor!</p>
+        <h1>Ghid despre <mark>animale</mark></h1>
+        <p><em>Descoperă lumea fascinantă a animalelor!</em></p>
     </header>
 
     <nav>
-        <a href="#mamifere">Mamifere</a>
-        <a href="#pasari">Păsări</a>
-        <a href="#reptile">Reptile</a>
+        <a href="#mamifere"><b>Mamifere</b></a>
+        <a href="#pasari"><i>Păsări</i></a>
+        <a href="#reptile"><u>Reptile</u></a>
     </nav>
 
     <section id="mamifere">
         <h2>Mamifere</h2>
         <div class="animal">
             <h3>Leul</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="Leu">
-            <p>Leul este considerat regele savanei. Trăiește în grupuri numite haite și este un prădător puternic.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="Leu" width="600">
+            <p><strong>Leul</strong> este considerat <em>regele savanei</em>. Trăiește în <ins>grupuri numite haite</ins> și este un prădător <b>puternic</b>. 
+            Viteza sa poate ajunge până la 80 km/h<sup>2</sup>.</p>
+            <blockquote>
+                „Leul este simbolul curajului și al puterii.” – <cite>Enciclopedia animalelor</cite>
+            </blockquote>
         </div>
     </section>
 
@@ -32,8 +39,12 @@
         <h2>Păsări</h2>
         <div class="animal">
             <h3>Papagalul</h3>
-            <img src="Papagal.jpg" alt="Papagal" height="600px" width="600px">
-            <p>Papagalii sunt cunoscuți pentru penajul lor colorat și abilitatea de a imita sunete, inclusiv vocea umană.</p>
+            <img src="Papagal.jpg" alt="Papagal" height="400" width="600">
+            <p>Papagalii sunt cunoscuți pentru <mark>penajul colorat</mark> și abilitatea lor de a <strong>imita sunete</strong>, inclusiv vocea umană. 
+            Unele specii pot trăi peste <small>50 de ani</small>.</p>
+            <p>Exemplu de cod folosit pentru afișare:
+                <pre><code>&lt;img src="Papagal.jpg" alt="Papagal"&gt;</code></pre>
+            </p>
         </div>
     </section>
 
@@ -41,15 +52,26 @@
         <h2>Reptile</h2>
         <div class="animal">
             <h3>Țestoasa</h3>
-            <img src="Testoasa.jpg" alt="Țestoasă" height="400px" width="600px">
-            <p>Țestoasele sunt animale lente, dar longevive. Carapacea lor le protejează de prădători.</p>
+            <img src="Testoasa.jpg" alt="Țestoasă" height="400" width="600">
+            <p>Țestoasele sunt animale <del>rapide</del> <ins>lente</ins>, dar <em>longevive</em>. 
+            Carapacea lor le oferă <b>protecție</b> împotriva prădătorilor. 
+            Ele pot trăi până la 100 de ani<sub>+</sub>.</p>
+            <q>Răbdarea este cheia longevității, spune țestoasa.</q>
         </div>
     </section>
 
+    <div>
+        <h3>Text preformatat</h3>
+        <pre>
+Animal:  Leu
+Habitat: Savana
+Hrana:   Carne
+        </pre>
+    </div>
+
     <footer>
-        <p>&copy; 2025 Ghid despre animale - Realizat de [Tudorica Nicolae</p>
+        <p>&copy; 2025 Ghid despre animale – Realizat de <strong>Tudorica Nicolae</strong></p>
     </footer>
 
 </body>
 </html>
-
